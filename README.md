@@ -43,7 +43,7 @@ At the time I was building this I was trying to figure out a nice way to have a 
 2) Offer multiple operations for diagnostic and configuration
 3) Require minimal knowledge of how the system might work (e.g. `<tool> help`)
 
-I do enjoy what ChatOps offers but it did not exactly fit the target needs I was going for:
+I do enjoy what Hubot offers but it did not exactly fit the target needs I was going for:
 
 - I didn't need the more advanced input format
 - Slash commands were sufficient for the interface
