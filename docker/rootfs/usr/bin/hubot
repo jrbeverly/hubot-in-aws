@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+getSecretField() {
+  echo ${1} | jq ".SecretString | fromjson | .${2}" | sed 's/\"//g'
+}
+
+secret=$(aws secretsmanager --region ${AWS_REGION} get-secret-value --secret-id ${HUBOT_SECRET})
+
+export HUBOT_SLACK_TOKEN=$(getSecretField "${secret}" "token")
+export HUBOT_SLACK_BOTNAME=$(getSecretField "${secret}" "name")
+
+node_modules/hubot/bin/hubot --adapter slack

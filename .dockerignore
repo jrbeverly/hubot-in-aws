@@ -1,0 +1,5 @@
+*
+!docker/rootfs
+!docker/pkg
+!src/*.*
+!src/scripts

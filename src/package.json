@@ -1,0 +1,17 @@
+{
+  "name": "hubot-in-aws",
+  "repository": "https://github.com/jrbeverly/hubot-in-aws",
+  "version": "0.0.1",
+  "description": "Hubot running in AWS",
+  "main": "index.js",
+  "scripts": {},
+  "author": "jrbeverly",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.596.0",
+    "hubot": "^3.3.2",
+    "hubot-help": "^1.0.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-slack": "^4.7.1"
+  }
+}
