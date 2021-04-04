@@ -1,0 +1,15 @@
+slug: hubot-in-aws
+description: Hubot in AWS on ECS Fargate
+project: workbench
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2020
+topics: |-
+  [
+    "hubot",
+    "aws"
+  ]
