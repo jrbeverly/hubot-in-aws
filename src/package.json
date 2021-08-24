@@ -7,10 +7,5 @@
   "scripts": {},
   "author": "jrbeverly",
   "license": "MIT",
-  "dependencies": {
-    "aws-sdk": "^2.932.0",
-    "hubot": "^3.3.2",
-    "hubot-help": "^1.0.1",
-    "hubot-slack": "^4.9.0"
-  }
+  "dependencies": {}
 }
